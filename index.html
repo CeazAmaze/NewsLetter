@@ -1,16 +1,15 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mix Master Ceaz Amaze - Newsletter</title>
+    <title>Mix Master Ceaz Amaze - Deep House Newsletter</title>
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ceazamaze.github.io/NewsLetter/">
-    <meta property="og:title" content="Mix Master Ceaz Amaze - Newsletter">
-    <meta property="og:description" content="TRB & PDM Assimulation 3 - OUT NOW! 31 tracks featuring Hot Since 82, Sasha, Deadmau5, CamelPhat">
+    <meta property="og:title" content="Mix Master Ceaz Amaze - PDM Deep House 01">
+    <meta property="og:description" content="PDM - Deep House 01: Elegant deep house journey featuring 21 tracks of sophisticated selections.">
     <meta property="og:image" content="https://ceazamaze.github.io/NewsLetter/newsletter-preview.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -19,141 +18,220 @@
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://ceazamaze.github.io/NewsLetter/">
-    <meta property="twitter:title" content="Mix Master Ceaz Amaze - Newsletter">
-    <meta property="twitter:description" content="TRB & PDM Assimulation 3 - OUT NOW! 31 tracks featuring Hot Since 82, Sasha, Deadmau5, CamelPhat">
+    <meta property="twitter:title" content="Mix Master Ceaz Amaze - PDM Deep House 01">
+    <meta property="twitter:description" content="PDM - Deep House 01: Elegant deep house journey featuring 21 tracks of sophisticated selections.">
     <meta property="twitter:image" content="https://ceazamaze.github.io/NewsLetter/newsletter-preview.png">
     
     <link rel="stylesheet" href="style.css" />
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap');
+        
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Raleway', sans-serif;
             margin: 0;
             padding: 20px;
-            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            background: linear-gradient(135deg, #0a0a0a, #1a1a2e);
             color: white;
-            line-height: 1.6;
+            line-height: 1.8;
         }
         
         .container {
-            max-width: 600px;
+            max-width: 650px;
             margin: 0 auto;
-            background: white;
-            color: #333;
-            border-radius: 10px;
+            background: linear-gradient(to bottom, #0f0f1e, #1a1a2e);
+            color: #e8e8e8;
+            border-radius: 0;
             overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+            border: 1px solid rgba(212, 175, 55, 0.2);
         }
         
         .header {
-            background: linear-gradient(135deg, #ff1493, #c71585);
-            color: white;
-            padding: 30px;
+            background: linear-gradient(135deg, #0a0a0a, #1a1a2e);
+            color: #d4af37;
+            padding: 50px 30px;
             text-align: center;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.3);
         }
         
         .logo {
-            font-size: 2em;
-            font-weight: bold;
-            margin-bottom: 10px;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8em;
+            font-weight: 400;
+            letter-spacing: 3px;
+            margin-bottom: 15px;
+            color: #d4af37;
         }
         
         .tagline {
-            font-size: 1.1em;
-            opacity: 0.9;
+            font-size: 0.9em;
+            letter-spacing: 2px;
+            opacity: 0.8;
+            font-weight: 300;
+            text-transform: uppercase;
+            color: #b8b8b8;
         }
         
         .content {
-            padding: 30px;
+            padding: 40px 35px;
         }
         
         .section {
-            margin-bottom: 30px;
-            padding: 20px;
-            background: #f8f9fa;
-            border-radius: 8px;
-            border-left: 4px solid #ff1493;
+            margin-bottom: 40px;
+            padding: 30px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .section:last-child {
+            border-bottom: none;
         }
         
         .section h2 {
-            color: #ff1493;
+            font-family: 'Playfair Display', serif;
+            color: #d4af37;
             margin-top: 0;
-            font-size: 1.3em;
+            font-size: 1.6em;
+            font-weight: 400;
+            letter-spacing: 1px;
+            text-align: center;
+            margin-bottom: 25px;
         }
         
-        .mix-item {
-            background: white;
-            padding: 15px;
-            margin: 10px 0;
-            border-radius: 8px;
-            border: 1px solid #ddd;
+        .release-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2em;
+            color: #d4af37;
+            text-align: center;
+            margin: 30px 0;
+            font-weight: 400;
+            letter-spacing: 2px;
         }
         
-        .mix-title {
-            font-weight: bold;
-            color: #333;
-            margin-bottom: 5px;
+        .release-subtitle {
+            text-align: center;
+            color: #b8b8b8;
+            font-size: 0.95em;
+            letter-spacing: 1px;
+            margin-bottom: 30px;
+            font-weight: 300;
         }
         
-        .mix-info {
-            color: #666;
+        .intro-text {
+            text-align: center;
+            font-size: 1.05em;
+            line-height: 1.8;
+            color: #c8c8c8;
+            margin: 25px 0;
+            font-weight: 300;
+        }
+        
+        .tracklist {
+            background: rgba(0,0,0,0.3);
+            padding: 25px;
+            border-radius: 2px;
             font-size: 0.9em;
+            line-height: 2;
+            border: 1px solid rgba(212, 175, 55, 0.15);
+        }
+        
+        .tracklist strong {
+            color: #d4af37;
+            font-weight: 400;
+            margin-right: 8px;
+        }
+        
+        .highlights {
+            background: rgba(212, 175, 55, 0.05);
+            padding: 25px;
+            border-radius: 2px;
+            border-left: 2px solid #d4af37;
+            margin: 25px 0;
+        }
+        
+        .highlights p {
+            margin: 12px 0;
+            color: #c8c8c8;
+            font-weight: 300;
+        }
+        
+        .highlights strong {
+            color: #d4af37;
+            font-weight: 400;
         }
         
         .button {
             display: inline-block;
-            background: linear-gradient(135deg, #ff1493, #c71585);
-            color: white;
-            padding: 12px 25px;
+            background: transparent;
+            color: #d4af37;
+            padding: 14px 35px;
             text-decoration: none;
-            border-radius: 25px;
-            font-weight: bold;
-            margin: 10px 5px;
-            transition: transform 0.3s ease;
+            border: 1px solid #d4af37;
+            font-weight: 400;
+            margin: 10px 8px;
+            transition: all 0.3s ease;
+            letter-spacing: 1px;
+            font-size: 0.9em;
         }
         
         .button:hover {
-            transform: translateY(-2px);
+            background: #d4af37;
+            color: #0a0a0a;
         }
         
         .cta-section {
             text-align: center;
-            background: linear-gradient(135deg, #1a1a2e, #16213e);
-            color: white;
-            padding: 25px;
-            border-radius: 8px;
-            margin: 20px 0;
+            padding: 40px 20px;
+            margin: 30px 0;
+            border-top: 1px solid rgba(212, 175, 55, 0.2);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+        }
+        
+        .cta-section h3 {
+            font-family: 'Playfair Display', serif;
+            color: #d4af37;
+            font-size: 1.4em;
+            font-weight: 400;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+        }
+        
+        .cta-section p {
+            color: #b8b8b8;
+            font-weight: 300;
+            margin-bottom: 20px;
         }
         
         .footer {
-            background: #2c3e50;
-            color: white;
-            padding: 20px;
+            background: #0a0a0a;
+            color: #888;
+            padding: 35px 25px;
             text-align: center;
-            font-size: 0.9em;
+            font-size: 0.85em;
+            border-top: 1px solid rgba(212, 175, 55, 0.2);
         }
         
         .social-links {
-            margin: 15px 0;
+            margin: 20px 0;
         }
         
         .social-links a {
-            color: white;
+            color: #d4af37;
             text-decoration: none;
-            margin: 0 10px;
-            font-size: 1.2em;
+            margin: 0 15px;
+            font-size: 1em;
+            letter-spacing: 1px;
+            transition: color 0.3s ease;
         }
         
         .social-links a:hover {
-            color: #ff1493;
+            color: #fff;
         }
         
-        .celebration-note {
-            background: linear-gradient(135deg, #ffe8f5, #ffd4eb);
-            border-left: 4px solid #ff1493;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 5px;
-            text-align: center;
+        .divider {
+            width: 60px;
+            height: 1px;
+            background: #d4af37;
+            margin: 25px auto;
         }
     </style>
 </head>
@@ -161,118 +239,77 @@
     <div class="container">
         <!-- Header -->
         <div class="header">
-            <div class="logo">MIX MASTER<br>CEAZ AMAZE</div>
-            <div class="tagline">Progressive Dance • Deep Progressive • Afro-House</div>
+            <div class="logo">MIX MASTER CEAZ AMAZE</div>
+            <div class="divider"></div>
+            <div class="tagline">Deep House Selections</div>
         </div>
         
         <!-- Content -->
         <div class="content">
-            <!-- Celebration Note -->
-            <div class="celebration-note">
-                <h2 style="color: #ff1493; margin-top: 0; font-size: 2em;">💕 IT'S HERE! 💕</h2>
-                <h3 style="color: #ff1493; margin: 10px 0;">Be Ready to LOVE!</h3>
-                <p style="font-size: 1.1em; font-weight: bold; margin: 10px 0; color: #c71585;">TRB & PDM Assimulation 3 is LIVE NOW!</p>
+            <!-- Release Title -->
+            <div class="release-title">PDM — Deep House 01</div>
+            <div class="release-subtitle">An Elegant Journey Through Deep House</div>
+            
+            <div class="intro-text">
+                Where sophistication meets rhythm. Twenty-one carefully curated tracks that embody the essence of deep house — soulful, refined, and timeless. This is music for the discerning listener, crafted with precision and passion.
             </div>
             
-            <!-- Latest Release -->
+            <!-- Tracklist -->
             <div class="section">
-                <h2>💖 OUT NOW: TRB & PDM ASSIMULATION 3</h2>
-                
-                <div class="mix-item" style="border: 2px solid #ff1493; background: linear-gradient(135deg, #ffe8f5, #ffd4eb);">
-                    <div class="mix-title">💕 TRB & PDM ASSIMULATION 3 - OUT NOW!</div>
-                    <div class="mix-info">31 tracks • Progressive House + Afro-House Fusion • Made with Love</div>
-                    <div style="margin-top: 10px;">
-                        <a href="https://www.mixcloud.com/CeazAmaze/" style="color: #ff1493; font-weight: bold; text-decoration: none;" target="_blank">🎧 Listen Now on Mixcloud →</a>
-                    </div>
-                </div>
-                
-                <p style="margin-top: 20px;">The fusion journey continues! Assimulation 3 brings progressive house emotions together with tribal Afro-House energy in 31 tracks designed to make you fall in love with the music all over again.</p>
-                
-                <p style="margin-top: 15px;">This is what happens when two worlds collide with passion and precision. Let the journey take you. 💕</p>
-            </div>
-            
-            <!-- Complete Tracklist -->
-            <div class="section">
-                <h2>🎵 Complete Tracklist - 31 Tracks</h2>
-                <div style="background: white; padding: 15px; border-radius: 8px; font-size: 0.9em;">
-                    <strong>1.</strong> Tony Shades - Runi (Extended)<br>
-                    <strong>2.</strong> Maiu - Closer (Extended Mix)<br>
-                    <strong>3.</strong> Hot Since 82 - Paper Walls (Original Mix)<br>
-                    <strong>4.</strong> FERHE - Northern Patterns (Original)<br>
-                    <strong>5.</strong> Federico Epis - Once Again (Danny Bonnici Remix)<br>
-                    <strong>6.</strong> Michael Cassette - Promenade (Extended Mix)<br>
-                    <strong>7.</strong> Ophanim - Sutra (Extended Mix)<br>
-                    <strong>8.</strong> Joe Goddard - Music is the Answer (Hot Since 82 Remix)<br>
-                    <strong>9.</strong> Juan Fierro - Recuerdos (Extended)<br>
-                    <strong>10.</strong> CamelPhat, Arodes - Cycles (Extended Mix)<br>
-                    <strong>11.</strong> Suite 52, Fraser Jones - WHOO (Extended Mix)<br>
-                    <strong>12.</strong> Kalico Jak, Tibetania - Walls of Jericho (Original Mix)<br>
-                    <strong>13.</strong> El Mundo, Zazou - Can You See What I See (DSF Extended Remix)<br>
-                    <strong>14.</strong> SIS - Danzan (Original Mix)<br>
-                    <strong>15.</strong> Tommyboy & Mannel - Naturelize (Original Mix)<br>
-                    <strong>16.</strong> Inner Mind - Less (Extended Mix)<br>
-                    <strong>17.</strong> Enzo Siffredi, MoBlack feat. Mariam Zawose - Shikiria (Zakem, Yescene Remix)<br>
-                    <strong>18.</strong> Anonimat - Coaster (Durante Remix)<br>
-                    <strong>19.</strong> Sasha - One (Extended)<br>
-                    <strong>20.</strong> Enzo Paradiso, JonDeBruyne - Occasus (Original Mix)<br>
-                    <strong>21.</strong> Rod V VS Paul Kalkbrenner - Flowing Memories Dream On (PDM Mashup)<br>
-                    <strong>22.</strong> Cendryma - Terminal Pathway (Extended Mix)<br>
-                    <strong>23.</strong> Matteo Cole - Boa Sorte Good Luck (Extended Mix)<br>
-                    <strong>24.</strong> ALIVA (RU) - Paradise (Original Mix)<br>
-                    <strong>25.</strong> Fatt Mox, FDTD - We Love To Dance (Tribal Mix)<br>
-                    <strong>26.</strong> Dexxx Gum - Out of the Ash (Original Mix)<br>
-                    <strong>27.</strong> Atramix - Un Chant du Corps (DJ Thandok Remix)<br>
-                    <strong>28.</strong> Jody Wisternoff, PROFF feat. Siobhan Wilson - Mui (Ezequiel Arias Extended Mix)<br>
-                    <strong>29.</strong> Deadmau5 & Stevie Appleton - Science (Extended Mix)<br>
-                    <strong>30.</strong> Wassu - Burnout (Andrea Cassino Remix)<br>
-                    <strong>31.</strong> Rezident feat. Kate Morgan - Muse (Original Mix)
+                <h2>The Journey</h2>
+                <div class="tracklist">
+                    <strong>1.</strong> Lunvra - Again (Original Mix)<br>
+                    <strong>2.</strong> Knox - Wilder - Same Sky (Original Mix)<br>
+                    <strong>3.</strong> SubsideUK - Fantasia (Extended Mix)<br>
+                    <strong>4.</strong> Chris Cargo - Polyphonic (Original Mix)<br>
+                    <strong>5.</strong> Themba, Molsh, Kali Mija, Vasilis - It's All Gone (Original Mix)<br>
+                    <strong>6.</strong> Tom Harwood - Fallen (Original Mix)<br>
+                    <strong>7.</strong> Schall:Burch - Schattennetz (Original Mix)<br>
+                    <strong>8.</strong> Wassu - Endless Love (Nicolas Giordano Remix)<br>
+                    <strong>9.</strong> SICHI - Make It Loud (Original Mix)<br>
+                    <strong>10.</strong> Shome - Retrofutura (Original Mix)<br>
+                    <strong>11.</strong> Ryan Murgatroyed - Kanna (Original Mix)<br>
+                    <strong>12.</strong> Azibo - Pale Nights (Original Mix)<br>
+                    <strong>13.</strong> Avenue One, Saya (CA) - Back To The Roots (Extended Remix) [Newman (I Love)]<br>
+                    <strong>14.</strong> Elliot Moriaty - Jakhire (Retro Mix)<br>
+                    <strong>15.</strong> Oktave, CVALM - Keep Going (Extended Mix)<br>
+                    <strong>16.</strong> Jason Heat - Aura (Original Mix)<br>
+                    <strong>17.</strong> Savvas - Adrift (Peter Makto Remix)<br>
+                    <strong>18.</strong> Carlos Pires - Forward (Original Mix)<br>
+                    <strong>19.</strong> PALLADIAN - KOLOBOMA (Original Mix)<br>
+                    <strong>20.</strong> Alex Garett, Adassiya - Headlights (Extended Mix)<br>
+                    <strong>21.</strong> Chicane, Larse - Offshore (Extended Mix)
                 </div>
             </div>
             
             <!-- Highlights -->
             <div class="section">
-                <h2>🎯 Assimulation 3 Highlights</h2>
-                <div style="background: #ffe8f5; padding: 15px; border-radius: 8px;">
-                    <p style="margin-bottom: 10px;"><strong>Progressive Legends:</strong> Sasha, Deadmau5, Hot Since 82 (2x), CamelPhat, Jody Wisternoff</p>
-                    <p style="margin-bottom: 10px;"><strong>PDM Exclusive Mashup:</strong> Rod V vs Paul Kalkbrenner - Flowing Memories Dream On</p>
-                    <p style="margin-bottom: 10px;"><strong>Afro-House Power:</strong> MoBlack, Tommyboy & Mannel, Fatt Mox, DJ Thandok</p>
-                    <p style="margin-bottom: 0;"><strong>Underground Masters:</strong> Cendryma, Durante, Ezequiel Arias, Rezident</p>
+                <h2>Notable Selections</h2>
+                <div class="highlights">
+                    <p><strong>Classic Refinement:</strong> Chicane - "Offshore" closes with timeless elegance</p>
+                    <p><strong>Underground Sophistication:</strong> Ryan Murgatroyed, Themba, Wassu</p>
+                    <p><strong>Deep Discoveries:</strong> Lunvra, SubsideUK, PALLADIAN</p>
+                    <p><strong>Soulful Depth:</strong> From introspective openings to euphoric closings</p>
                 </div>
             </div>
             
             <!-- Call to Action -->
             <div class="cta-section">
-                <h3>🎧 Listen to Assimulation 3 Now</h3>
-                <p>31 tracks of progressive and Afro-House fusion made with love</p>
+                <h3>Experience Deep House 01</h3>
+                <p>Available now for sophisticated listeners</p>
                 <a href="https://www.mixcloud.com/CeazAmaze/" class="button" target="_blank">
-                    💕 Play Assimulation 3
-                </a>
-                <a href="https://www.mixcloud.com/CeazAmaze/" class="button" target="_blank">
-                    🎵 Follow on Mixcloud
+                    LISTEN ON MIXCLOUD
                 </a>
                 <a href="https://soundcloud.com/ceazamaze" class="button" target="_blank">
-                    🎵 SoundCloud
+                    SOUNDCLOUD
                 </a>
             </div>
             
-            <!-- The Series -->
+            <!-- About PDM Deep House -->
             <div class="section">
-                <h2>🔥 The Assimulation Series</h2>
-                <p>Three fusion journeys, three unique experiences. Explore the complete series:</p>
-                <div class="mix-item">
-                    <div class="mix-title">TRB & PDM Assimulation 3 💕</div>
-                    <div class="mix-info">31 tracks • Hot Since 82, Sasha, Deadmau5, CamelPhat • OUT NOW!</div>
-                </div>
-                <div class="mix-item">
-                    <div class="mix-title">TRB & PDM Assimulation 2</div>
-                    <div class="mix-info">27 tracks • Danny Tenaglia, Yotto, Tinlicker • 3 PDM Mashups</div>
-                    <div style="margin-top: 10px;">
-                        <a href="https://www.mixcloud.com/CeazAmaze/trb-pdm-assimulation-2/" style="color: #ff1493; font-weight: bold; text-decoration: none;" target="_blank">🎧 Listen →</a>
-                    </div>
-                </div>
-                <div class="mix-item">
-                    <div class="mix-title">PDM & TRB Assimilated 1</div>
-                    <div class="mix-info">24 tracks • Where the fusion began</div>
+                <h2>The PDM Deep House Series</h2>
+                <div class="intro-text">
+                    A new chapter in the Progressive Dance Music journey. Deep House 01 marks the beginning of a series dedicated to the refined, the soulful, and the timeless. Where progressive meets depth, where sophistication meets groove.
                 </div>
             </div>
         </div>
@@ -280,16 +317,12 @@
         <!-- Footer -->
         <div class="footer">
             <div class="social-links">
-                <a href="https://www.mixcloud.com/CeazAmaze/" target="_blank">Mixcloud</a>
-                <a href="https://soundcloud.com/ceazamaze" target="_blank">SoundCloud</a>
-                <a href="#" target="_blank">Instagram</a>
-                <a href="#" target="_blank">Twitter</a>
+                <a href="https://www.mixcloud.com/CeazAmaze/" target="_blank">MIXCLOUD</a>
+                <a href="https://soundcloud.com/ceazamaze" target="_blank">SOUNDCLOUD</a>
             </div>
-            <p>© 2026 Mix Master Ceaz Amaze | Progressive Dance Music Worldwide</p>
-            <p style="font-size: 0.8em; margin-top: 10px;">
-                <a href="#" style="color: #ff1493;">Subscribe</a> | 
-                <a href="#" style="color: #ff1493;">Contact</a>
-            </p>
+            <div class="divider"></div>
+            <p>© 2026 Mix Master Ceaz Amaze</p>
+            <p style="margin-top: 10px; font-size: 0.8em; color: #666;">Progressive Dance Music | Deep House Selections</p>
         </div>
     </div>
 </body>
